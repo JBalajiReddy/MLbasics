@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import pandas as pd
-data = pd.read_csv(r'D:\Chrome Downloads\Energy_consumption.csv')
+data = pd.read_csv(r'Energy_consumption.csv')
 # Convert the 'Timestamp' to datetime
 data['Timestamp'] = pd.to_datetime(data['Timestamp'])
 
